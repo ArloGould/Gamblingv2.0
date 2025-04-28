@@ -1,9 +1,48 @@
 .Header {
   display: flex;
+  flex-direction: column;
   position: fixed;
-  right: 0;
+  Bottom: 0;
   left: 0;
   top: 0;
-  height: 50px;
-  background-color: blue;
+  width: 180px;
+  border-bottom: 3px;
+  border-style: solid;
+  justify-content: space-between;
+  background-color: black;
+}
+.BottomHeader {
+  max-width:fit-content ;
+  color:white;
+}
+.Logo {
+  width: 180px;
+  margin: 0;
+  border: none;
+}
+.MenuItem {
+  display: block;
+  height: 30px;
+  border-radius: 0px;
+  border: none;
+  width: 180px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0%;
+
+}
+.MenuItem:hover {
+  background-color: rgb(45, 45, 45);
+}
+.MenuItem:active {
+  background-color: rgb(70, 70, 70);
+}
+.C {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  
+}
+a {
+  text-decoration: none;
 }
