@@ -8,3 +8,9 @@
   margin: 0;
   border-bottom:solid ;
 }
+.StatsBlock {
+  padding: 10px;
+  background-color: rgb(79, 79, 79);
+  display: flex;
+  justify-content: space-between;
+}
