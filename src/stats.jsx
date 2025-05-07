@@ -1,9 +1,18 @@
 import { useState } from "react";
 
+let points = localStorage.getItem("Points123456789") ? parseInt(localStorage.getItem("Points123456789")) : 10000;
 const initialStats = [
-  { name: "BlackJack", Games: 0, Wins: 0, Losses: 0 },
-  { name: "High-Low", Games: 0, Wins: 0, Losses: 0 },
-  { name: "Slots", Games: 0, Wins: 0, Losses: 0 },
+  { GamesBJ: 0, 
+    WinsBJ: 0, 
+    LossesBJ: 0 , 
+    GamesHL: 0, 
+    WinsHL: 0, 
+    LossesHL: 0 , 
+    GamesS: 0, 
+    WinsS: 0, 
+    LossesS: 0, 
+    name: "General", 
+    Points: points, }
 ];
 
 export const useStats = () => {

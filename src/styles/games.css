@@ -9,6 +9,7 @@
   border-radius: 3px;
   max-width: fit-content;
   padding-bottom: 10px;
+  color: red;
 }
 .name {
   margin: 10px;
@@ -22,4 +23,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 17px;
   row-gap: 30px;
+}
+.Card {
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.hide {
+  display: none;
 }
